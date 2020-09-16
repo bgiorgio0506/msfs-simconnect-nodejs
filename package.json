@@ -20,7 +20,7 @@
     "bugs": {
         "url": "https://github.com/CockpitConnect/msfs-simconnect-nodejs/issues"
     },
-    "publishConfig": { 
+    "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
     },
     "bundleDependencies": false,
@@ -31,7 +31,7 @@
     "gypfile": false,
     "license": "MIT",
     "scripts": {
-        "build": "node-gyp configure build --msvs_version=2019 --arch=x64",
-        "rebuild": "node-gyp configure rebuild --msvs_version=2019 --arch=x64"
+        "build": "node-gyp configure build  --target=10.1.1 --msvs_version=2019 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+        "rebuild": "node-gyp configure rebuild  --target=10.1.1 --msvs_version=2019 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
     }
 }

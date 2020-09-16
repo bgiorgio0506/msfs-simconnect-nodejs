@@ -5,7 +5,7 @@ if (process.platform !== `win32`) {
 let simConnectLibrary = null
 
 try {
-    simConnectLibrary = require(`./build/Release/msfs-simconnect-nodejs`)
+    simConnectLibrary = require('./build/Release/msfs-simconnect-nodejs.node')
 } catch (exception) {
     console.error(`Could not load the SimConnect SDK. Does the build directory exists, so is it compiled? Exiting.`)
     console.error(exception);
