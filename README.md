@@ -1,5 +1,3 @@
-*** CURRENTLY IN DEVELOPMENT ***
-
 # msfs-simconnect-nodejs
 Microsoft Flight Simulator 2020 SimConnect SDK wrapper for NodeJS.
 
