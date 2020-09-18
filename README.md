@@ -4,11 +4,11 @@ Microsoft Flight Simulator 2020 SimConnect SDK wrapper for NodeJS.
 Works on 64 bit version of NodeJS. Currently, for Windows only. 
 
 ## Installation
-msfs-simconnect-nodejs uses a native NodeJS addon and therefore, it must be compiled first before you can use it as module within your project.
+nodejs-simconnect uses a native NodeJS addon and therefore, it must be compiled first before you can use it as module within your project.
 
 ### 1.) Install the Node module
-
-`npm install msfs-simconnect-node`
+Clone the repo move it on node_modules and then run: 
+`npm install`
 
 ### 2.) Copy your SimConnect SDK files
 You need to copy your own SimConnect SDK files to msfs-simconnect-nodejs. 64 bit version is also supported.
