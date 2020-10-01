@@ -235,7 +235,7 @@ void handleReceived_Data(Isolate *isolate, SIMCONNECT_RECV *pData, DWORD cbData)
 			char *p = ((char *)(&pObjData->dwData) + dataValueOffset);
 			double *var = (double *)p;
 			v8::Local<v8::String> key;
-			v8:MaybeLocal<v8::String> keytemp = String::NewFromUtf8(isolate, valIds.at(i).c_str());
+			v8::MaybeLocal<v8::String> keytemp = String::NewFromUtf8(isolate, valIds.at(i).c_str());
 			keytemp.ToLocal(&key);
 			result_list->Set(ctx,key, Number::New(isolate, *var));
 		}

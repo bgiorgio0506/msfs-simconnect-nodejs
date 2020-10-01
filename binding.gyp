@@ -1,7 +1,7 @@
 {
     "targets": [
         {
-            "target_name": "msfs-simconnect-nodejs",
+            "target_name": "nodejs-simconnect",
             "sources": [ "src/addon.cc" ],
             "include_dirs": [
 				"<!(node -e \"require('nan')\")",

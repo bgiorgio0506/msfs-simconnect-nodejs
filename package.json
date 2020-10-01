@@ -1,14 +1,13 @@
 {
-    "name": "msfs-simconnect-nodejs",
+    "name": "nodejs-simconnect",
     "author": {
-        "name": "CockpitConnect"
+        "name": "Giorgio Bella"
     },
-    "version": "0.0.1",
+    "version": "0.3.0",
     "main": "index.js",
-    "homepage": "https://github.com/CockpitConnect/msfs-simconnect-nodejs",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/CockpitConnect/msfs-simconnect-nodejs.git"
+        "url": "https://github.com/bgiorgio0506/nodejs-simconnect.git"
     },
     "description": "Microsoft Flight Simulator 2020 SimConnect wrapper for NodeJS",
     "keywords": [
@@ -18,7 +17,7 @@
         "SDK"
     ],
     "bugs": {
-        "url": "https://github.com/CockpitConnect/msfs-simconnect-nodejs/issues"
+        "url": "https://github.com/bgiorgio0506/nodejs-simconnect/issues"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
@@ -31,7 +30,7 @@
     "gypfile": false,
     "license": "MIT",
     "scripts": {
-        "build": "node-gyp configure build  --target=10.1.1 --msvs_version=2019 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
-        "rebuild": "node-gyp configure rebuild  --target=10.1.1 --msvs_version=2019 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
+        "build": "node-gyp configure build  --target=10.1.2 --msvs_version=2019 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+        "rebuild": "node-gyp configure rebuild  --target=10.1.2 --msvs_version=2019 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
     }
 }
