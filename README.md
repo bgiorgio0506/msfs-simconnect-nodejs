@@ -1,4 +1,4 @@
-# msfs-simconnect-nodejs
+# bgiorgio0506/nodejs-simconnect
 Microsoft Flight Simulator 2020 SimConnect SDK wrapper for NodeJS.
 
 Works on 64 bit version of NodeJS. Currently, for Windows only. 
